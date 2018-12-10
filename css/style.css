@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "muli", sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 15px;
+}
+
+p {
+
+    font-size: 14px;
+}
+/* Regler la taille et la position du logo */
+header img{
+        width: 60px;
+        top:10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+/* Forcer le navigateur à s'aligner à droite */
+.navbar {
+    position: relative !important;
+    right: 0px !important;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.67);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.67); 
+    height: 60px;
+    }
+
+/* Pertsonnaliser la couleur des liens */
+.nav-link {
+font-family: muli, sans serif;
+font-weight: 600;
+text-transform:uppercase;
+font-size: 18px;
+color: #2B3A42;
+padding-top: 20px
+}
+
+.nav-link:hover {
+font-family: muli, sans serif;
+font-weight: 600;
+text-transform:uppercase;
+font-size: 18px;
+color: #8DBD11 !important;
+padding-top: 20px
+}     
+
+/* Personnaliser l'image */
+
+.arbre{
+    left: 0px;
+    width: 100%;
+    padding: 0px;         
+    }
+    
+    .arbre img{
+        width: 60%;  
+        }
+    
+    .text-arbre{
+    background-color:rgb(153, 231, 150);
+    width: 100%;
+    height: 600px;  
+        }
+
+/* Personnaliser le main-Titre */
+
+
+#main-title h1{
+font-family: "muli", sans-serif;
+padding-top: 10px;
+text-align: center;
+font-weight:600;
+font-size: 2.5em;
+text-transform: uppercase;
+color:#2B3A42;
+}
+
+
+#main-title h1 span{
+    font-family: "muli", sans-serif;
+    text-align: center;
+    font-weight:900;
+    font-size: 1,5em;
+    color:rgb(241, 133, 10) !important;
+    }
+
+
+.durable{
+font-family: 'Rozha One', serif;
+font-size: 2em;
+color:#2B3A42;
+margin-top: 60px;
+}
+     
+.durable h2{
+    font-family: 'Rozha One', serif;
+    font-size: 1em;
+    color:#8DBD11;
+    margin-top: 60px;
+    text-transform: uppercase;
+    border: solid 2px #2B3A42;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 15px;
+
+    }
+
+
+/* Personnaliser le titre actu */
+
+.actu{
+    background: rgb(218, 151, 151);
+    height: 600px;
+    color: aliceblue;
+}
+
+/* Personnaliser l'image section RT 2012' */
+.house img{
+   width: 300
+   px;
+   padding-top: 20px;
+}
+
+/* Personnaliser typo section RT 2012' */
+
+.rt-title1 {
+    font-family: 'muli', sans-serif;
+    font-size:60px;
+    font-weight: 600;
+    color:#2B3A42;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 60px;
+    width: -moz-fit-content;
+    width: fit-content;
+    
+}
+   
+.rt-title1 span{
+    font-family: 'muli', sans-serif;
+    line-height: 90px;
+    font-size: 90px;
+    font-weight: 600;
+    color:rgb(241, 133, 10);
+    margin-top: 50%;
+    margin-left: 200px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: linear-gradient(-30deg, #8DBD11 12.5%, #fff 12.5%, #fff 37.5%, #8DBD11 37.5%, #8DBD11 62.5%, #fff 62.5%, #fff 87.5%, #8DBD11 87.5%);
+    background-size: 100px 58px;
+    background-position:50px 20px;
+    
+}
+
+.point1 h2 {
+    font-size: 30px;
+    color:#8DBD11;
+    font-weight: 900;
+    }
+
+.point2 h2 {
+    font-size: 30px;
+    color:#8DBD11;
+    font-weight: 900;
+        }
+
+    
+
+
+.point2{
+       
+        border-left: 3px dotted rgb(241, 133, 10);
+        }
+
+.point2 li{
+    font-size: 14px;
+    margin-left: 20px;
+       
+  }
+
+.point2 p span{
+    font-weight: 900;
+    color:rgb(241, 133, 10);
+
+    }
+
+.test-titre{
+
+    font-family: 'muli', sans-serif;
+    text-align: center;
+    line-height: 90px;
+    font-size: 90px;
+    font-weight: 600;
+    color:rgb(241, 133, 10);
+
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+
+.test-point{
+    
+    border:3px solid #8DBD11;
+    padding:30px;
+    margin-top: 60px;
+}
+
+.test-point img {
+    margin: auto;
+    display:block;
+    
+
+}
+
+.test-point h2 {
+    font-size: 30px;
+    width:60px;
+    height: 60px;
+    margin: auto;
+    border:3px solid #8DBD11;
+    font-weight: 900;
+    border-radius:50%;
+    padding: 8px 18px;
+}
+
+.test-point h3 {
+    font-size: 20px;
+    text-align: center;
+    color:#2B3A42;
+    margin-top: 60px;
+
+}
+
+.sf h2{
+    font-family: 'muli', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color:rgb(241, 133, 10);
+    margin:auto;
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+
+
+
+.text-sf p{
+    font-family: 'muli', sans-serif;
+    font-size:18px;
+    color:#2B3A42;
+    font-weight: 600;
+    padding-top: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 40px;
+
+}
+
+
+.text-sf ul{
+   
+    padding-left: 50px;
+
+}
+
+
+
+.text-sf p span{
+    font-family: 'muli', sans-serif;
+    font-size:18px;
+    color:rgb(241, 133, 10);
+    font-weight: 600;
+    
+    width: -moz-fit-content;
+    width: fit-content;
+
+}
+
+.footer{
+background-color: #2B3A42;
+height: 200px;
+
+}
+
+.reassurance img{
+    
+    margin: auto;
+    display:block;
+    width: 60px;
+
+
+}
