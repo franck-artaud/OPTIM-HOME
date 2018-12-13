@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -23,9 +24,11 @@ header img{
         padding-bottom: 10px;
         }
 
+
+
 /* Forcer le navigateur à s'aligner à droite */
 .navbar {
-    position: relative !important;
+    position: fixed !important;
     right: 0px !important;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.67);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.67);
@@ -54,17 +57,18 @@ padding-top: 20px
 
 /* Personnaliser l'image */
 
+
 .arbre{
     left: 0px;
     width: 100%;
     padding: 0px;         
     }
     
-    .arbre img{
+.arbre img{
         width: 60%;  
         }
     
-    .text-arbre{
+.text-arbre{
     background-color:rgb(153, 231, 150);
     width: 100%;
     height: 600px;  
@@ -95,21 +99,56 @@ color:#2B3A42;
 
 .durable{
 font-family: 'Rozha One', serif;
-font-size: 2em;
+font-size:2em;
 color:#2B3A42;
-margin-top: 60px;
 }
-     
+
+.durable h1{
+    animation-duration: 1s;
+    animation-name: slidein1;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Rozha One', serif;
+    font-size: 1em;
+
+
+    }
+
+@keyframes slidein1 {
+ from {
+  margin-left: 100%;
+   width: 300%; 
+        }
+      
+  to {
+   margin-left: 0%;
+   width: 100%;
+        }
+ }
+ @keyframes slidein2 {
+    from {
+     margin-top: 50%;
+      width: 300%; 
+           }
+         
+     to {
+      margin-top: 0%;
+      width: 100%;
+           }
+    }
+
+
 .durable h2{
     font-family: 'Rozha One', serif;
     font-size: 1em;
     color:#8DBD11;
-    margin-top: 60px;
     text-transform: uppercase;
     border: solid 2px #2B3A42;
     width: -moz-fit-content;
     width: fit-content;
     padding: 15px;
+    animation-duration: 1s;
+    animation-name: slidein2;
 
     }
 
@@ -122,18 +161,18 @@ margin-top: 60px;
     color: aliceblue;
 }
 
-/* Personnaliser l'image section RT 2012' */
-.house img{
-   width: 300
-   px;
-   padding-top: 20px;
-}
 
 /* Personnaliser typo section RT 2012' */
+.rt2012{
+padding-top: 90px;
 
-.rt-title1 {
+
+}
+
+
+.rt-titre1 {
     font-family: 'muli', sans-serif;
-    font-size:60px;
+    font-size:120px;
     font-weight: 600;
     color:#2B3A42;
     margin-top: 20px;
@@ -144,7 +183,7 @@ margin-top: 60px;
     
 }
    
-.rt-title1 span{
+.rt-titre span{
     font-family: 'muli', sans-serif;
     line-height: 90px;
     font-size: 90px;
@@ -192,6 +231,13 @@ margin-top: 60px;
 
     }
 
+
+ .test {
+padding-top: 90px;
+
+    }
+     
+
 .test-titre{
 
     font-family: 'muli', sans-serif;
@@ -200,7 +246,6 @@ margin-top: 60px;
     font-size: 90px;
     font-weight: 600;
     color:rgb(241, 133, 10);
-
     width: -moz-fit-content;
     width: fit-content;
 
@@ -209,14 +254,11 @@ margin-top: 60px;
 .test-point{
     
     border:3px solid #8DBD11;
-    padding:30px;
-    margin-top: 60px;
 }
 
 .test-point img {
     margin: auto;
     display:block;
-    
 
 }
 
@@ -235,15 +277,18 @@ margin-top: 60px;
     font-size: 20px;
     text-align: center;
     color:#2B3A42;
-    margin-top: 60px;
 
 }
+.sf{
+    padding-top: 40px;
+
+}
+
+
 
 .sf h2{
     font-family: 'muli', sans-serif;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
     font-size: 40px;
     font-weight: 600;
     color:rgb(241, 133, 10);
@@ -258,9 +303,9 @@ margin-top: 60px;
 .text-sf p{
     font-family: 'muli', sans-serif;
     font-size:18px;
+    padding-top:40px;
     color:#2B3A42;
     font-weight: 600;
-    padding-top: 30px;
     width: -moz-fit-content;
     width: fit-content;
     padding-left: 40px;
@@ -281,23 +326,62 @@ margin-top: 60px;
     font-size:18px;
     color:rgb(241, 133, 10);
     font-weight: 600;
-    
     width: -moz-fit-content;
     width: fit-content;
 
 }
 
-.footer{
-background-color: #2B3A42;
-height: 200px;
-
+.logos li{
+    list-style:none;
+    padding-bottom:90px;
+    text-align: center;
 }
 
-.reassurance img{
-    
-    margin: auto;
-    display:block;
-    width: 60px;
+.effi img{
+width: 300px;
+}
 
+.syne img{
+    width: 300px;
+    }
+
+
+
+footer{
+background-color: rgb(17, 19, 20);
+height: 60px;
 
 }
+.yes{
+    font-family: 'muli', sans-serif;
+    font-size:24px;
+    padding-top: 80px;
+    color:#2B3A42;
+    font-weight: 600;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 40px;
+}
+
+.yes span{
+    font-family: 'muli', sans-serif;
+    font-size:45px;
+    padding-top:50px;
+    color:#2B3A42;
+    font-weight: 600;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 40px;
+}
+
+.icon-checkmark:before {
+    content: "\ea10";
+    color:rgb(241, 133, 10);
+    font-size:60px;
+  }
+
+  .form{
+      padding-top: 40px;
+      padding-bottom: 40px;
+
+  }
